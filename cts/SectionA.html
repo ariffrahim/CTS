@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
 <div class="container">
 <header> 
 <!-- Contains the web page document’s headings  -->
@@ -29,18 +30,18 @@
 <div class="jumbotron">
 
 <div class="p-3 mb-2 bg-info">  <h1 id="header1">SECTION A:RESPONDENT PROFILE</h1> </div>
-<form>
+<form method="post" action=introsecb.html>
   <div class="form-group">
     <label for="exampleFormControlInput1">Registration/Matriculation number</label>
-    <input type="text" class="form-control" id="matric" placeholder="example WIF170100">
+    <input type="text" class="form-control" id="matric" placeholder="example WIF170100" required autofocus>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput2">Name of University</label>
-    <input type="text" class="form-control" id="uniname" placeholder="Put full university name">
+    <input type="text" class="form-control" id="uniname" placeholder="Put full university name" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput3">Year of Study </label>
-    <input type="text" class="form-control" id="yearsstudy" placeholder="First, Second, Third, Fourth, etc">
+    <input type="text" class="form-control" id="yearsstudy" placeholder="First, Second, Third, Fourth, etc" required>
   </div>
   
   <div class="form-group">
@@ -127,11 +128,11 @@
    <h3>Last Year Examination</h3>
   <div class="form-group">
     <label for="exampleFormControlInput5">Year of examination</label>
-    <input type="text" class="form-control" id="yearexam1" placeholder="2018,2017,2016,etc">
+    <input type="text" class="form-control" id="yearexam1" placeholder="2018,2017,2016,etc" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInpu6">Semester</label>
-    <input type="text" class="form-control" id="sem1" placeholder="1,2,3,4,5,6,7,etc">
+    <input type="text" class="form-control" id="sem1" placeholder="1,2,3,4,5,6,7,etc" required>
   </div>
   
 	
@@ -141,22 +142,22 @@
 	
 	<div class="form-group">
     <label for="exampleFormControlInput10">GPA(Current Semester)</label>
-    <input type="text" class="form-control" id="gpasm1" placeholder="">
+    <input type="text" class="form-control" id="gpasm1" placeholder="" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput11">CGPA(Current Semester)</label>
-    <input type="text" class="form-control" id="cgpasm1" placeholder="">
+    <input type="text" class="form-control" id="cgpasm1" placeholder="" required>
   </div>
 	
 	<h3>This Year Examination</h3>
 
   <div class="form-group">
     <label for="exampleFormControlInput8">Year of examination</label>
-    <input type="text" class="form-control" id="yearexam2" placeholder="2018,2017,2016,etc">
+    <input type="text" class="form-control" id="yearexam2" placeholder="2018,2017,2016,etc" required>
   </div>
 	<div class="form-group">
     <label for="exampleFormControlInpu9">Semester</label>
-    <input type="text" class="form-control" id="sem2" placeholder="1,2,3,4,5,6,7,etc">
+    <input type="text" class="form-control" id="sem2" placeholder="1,2,3,4,5,6,7,etc" required>
   </div>
   
   <div id="field_div1" class="form-group col-md-6">Add Yourse Course Here
@@ -164,16 +165,14 @@
 	</div>
 	<div class="form-group">
     <label for="exampleFormControlInput10">GPA(Current Semester)</label>
-    <input type="text" class="form-control" id="gpasm1" placeholder="">
+    <input type="text" class="form-control" id="gpasm1" placeholder="" required>
   </div>
   <div class="form-group">
     <label for="exampleFormControlInput11">CGPA(Current Semester)</label>
-    <input type="text" class="form-control" id="cgpasm1" placeholder="">
+    <input type="text" class="form-control" id="cgpasm1" placeholder="" required>
   </div>
   
-  <a href="introsecb.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Next</a>
-
-  
+  <input type="submit" name="submit" class="btn btn-primary btn-lg active" value="Next"> 
   
   </form>  
 
